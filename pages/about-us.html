@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="/images/icons/icon-72x72.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="/css/about-us.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/images/icons/icon-96x96.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#0d47a1" />
+    <meta name="theme-color" content="#0d47a1" />
+    <title>About Shield</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-wrapper blue darken-4 inverted">
+        <div class="nav-wrapper">
+          <a href="/index.html" class="brand-logo" id="logo">THE SHIELD</a>
+          <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li id="nav-items">
+              <a
+                href="/pages/about-us.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Discover our story, values, and mission by exploring 'Who we are?'"
+                >Who we are?</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/products-services.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Find our products and services according to your protection and wealth management range needs"
+                >Products</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/contact.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Get in touch with our team and reach out for any inquiries or assistance through our 'Contact Us' page"
+                >Contact Us</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/branch-network.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Discover our global presence and locate our various branches worldwide"
+                >Branches</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/my-shield.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="We're all ears for your suggestions! That's how we improve"
+                >My Shield</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/careers-shield.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Explore exciting opportunities to join our team and grow your career with us"
+                >Careers</a
+              >
+            </li>
+            <li
+              id="theme-toggle"
+              class="tooltipped"
+              data-position="bottom"
+              data-tooltip="Change Theme"
+            >
+              <i onclick="themeChange(this)" class="fa-regular fa-sun"></i>
+            </li>
+          </nav>
+          </ul>
+          <ul id="mobile-menu" class="sidenav grey lighten-2 inverted">
+            <li id="nav-items"><a href="/index.html">Back to Home</a></li>
+            <li id="nav-items"><a href="/pages/about-us.html">Who we are?</a></li>
+            <li id="nav-items"><a href="/pages/products-services.html">Products</a></li>
+            <li id="nav-items"><a href="/pages/contact.html">Contact Us</a></li>
+            <li id="nav-items"><a href="/pages/branch-network.html">Branches</a></li>
+            <li id="nav-items"><a href="/pages/my-shield.html">My Shield</a></li>
+            <li id="nav-items"><a href="/pages/careers-shield.html">Careers</a></li>
+            <div class="row">
+              <div class="col s3">
+                <a
+                  class="waves-effect waves-light btn"
+                  id="mobile-theme-button"
+                >
+                  <i onclick="themeChange(this)" class="fa-regular fa-sun"></i
+                ></a>
+              </div>
+              <div class="col s3">
+                <p id="theme-text-mobile">DAY/NIGHT</p>
+              </div>
+            </div>
+          </ul>      
+    </header>
+    <br>
+    <section class="about-us">
+      <div class="heading inverted">
+        <h1>About Us</h1>
+      </div>
+      <div class="about-container">
+        <div class="about-us-content">
+          <h2 class="inverted">Who we are?</h2>
+          <p>"Shield" was founded on July 4th, 1776, in the picturesque region of Bavaria, Germany, traces its origins to the visionary Adam Weishaupt. From its historic inception, Shield Inc. has been dedicated to safeguarding individuals, families, and businesses, creating a legacy of trust and protection that spans centuries. With a rich history rooted in commitment and a relentless pursuit of excellence, Shield Inc. has become synonymous with security and reliability, evolving to meet the ever-changing needs of its valued clients. As we embark on this journey through time, join us in exploring the remarkable story of Shield Inc., an insurance company deeply ingrained in the fabric of security and peace of mind.</p>
+          <br>
+          <button class="cta-button inverted"><a href="https://www.prudentialplc.com/en/about-us/175-years-celebrating-life" target="_blank" style="color: #ffffff;">Learn More</a></button>
+        </div>
+        <div class="about-us-image inverted">
+          <img src="/images/about-us-1776.png" alt="about-shield">
+        </div>
+      </div>
+    </section>
+
+    <section class="our-services">
+      <div class="services-row">
+          <h2 class="services-section-heading">Our Services</h2>
+      </div>
+      <div class="services-row">
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-house"></i>
+                  </div>
+                  <h3>Home Insurance</h3>
+                  <p>
+                    Shield Inc's Home Insurance is your fortress of protection for your cherished abode. We offer comprehensive coverage to safeguard your home, belongings, and personal liability. Our policies provide peace of mind, ensuring that your investment remains secure even in the face of unforeseen events like fire, theft, or natural disasters.
+                  </p>
+              </div>
+          </div>
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                  </div>
+                  <h3>Life Insurance</h3>
+                  <p>
+                    Shield Inc's Life Insurance is a promise of enduring security for your loved ones. We offer a range of life insurance options tailored to your unique needs. In the event of the unexpected, our policies ensure that your family is financially protected, allowing you to leave a lasting legacy of care and support.
+                  </p>
+              </div>
+          </div>
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-car"></i>
+                  </div>
+                  <h3>Auto Insurance</h3>
+                  <p>
+                    With Shield Inc's Auto Insurance, your vehicles are protected on every journey. Our coverage goes beyond the basics, offering comprehensive protection for your car, as well as liability coverage for accidents. We're here to provide peace of mind and keep you on the road with confidence.
+                  </p>
+              </div>
+          </div>
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-notes-medical"></i>
+                  </div>
+                  <h3>Health Insurance</h3>
+                  <p>
+                    Shield Inc's Health Insurance plans are designed to prioritize your well-being. We offer a range of health coverage options to ensure you have access to quality medical care when you need it most. Your health is our concern, and we're here to support you every step of the way.
+                  </p>
+              </div>
+          </div>
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-business-time"></i>
+                  </div>
+                  <h3>Business Insurance</h3>
+                  <p>
+                    Shield Inc's Business Insurance is your partner in safeguarding your company's success. We understand the unique challenges businesses face, and our policies are tailored to protect your assets, employees, and operations. With our coverage, you can focus on growth, knowing that your business is secure.
+                  </p>
+              </div>
+          </div>
+          <div class="services-column">
+              <div class="services-card">
+                  <div class="icon-wrapper inverted">
+                    <i class="fa-solid fa-wheelchair-move"></i>
+                  </div>
+                  <h3>Disability Insurance</h3>
+                  <p>
+                    Shield Inc's Disability Insurance provides a vital safety net when injury or illness disrupts your ability to work. Our policies offer financial support during challenging times, covering daily living expenses and medical bills. We're here to ensure that your financial stability remains intact, even when you can't work.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <br>
+
+  <section class="find-us-country inverted">
+    <p id="find-us-text">Find us in your country</p>
+    <a href="/pages/branch-network.html">
+    <button id="btn-where">  where we are</button></a>
+  </section>
+  <br>
+
+  <footer class="inverted">
+    <div class="footer-row-1">
+      <div class="footer-col-1">
+        <img
+          src="/images/icons/icon-72x72.png"
+          alt="logo"
+          class="footer-logo"
+        />
+        <p>
+          Shield Inc.&reg; takes great pride in upholding a strong commitment to its ownership structure and the rights of its stakeholders. As a responsible and ethical insurance company, we prioritize transparency and accountability in everything we do.
+        </p>
+      </div>
+      <div class="footer-col-1">
+        <h5>
+          Office
+          <div class="underline-1"><span></span></div>
+        </h5>
+        <br />
+        <br />
+        <p>616 Hauptstraße</p>
+        <p>1776 Munich</p>
+        <p>Bavaria, Germany</p>
+        <p class="email-id">info.shield@gmail.com</p>
+        <h6>+94702898499</h6>
+      </div>
+      <div class="footer-col-1">
+        <h5>
+          Links
+          <div class="underline-1"><span></span></div>
+        </h5>
+        <br />
+        <br />
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/pages/about-us.html">About Us</a></li>
+          <li><a href="/pages/products-services.html">Products</a></li>
+          <li><a href="/pages/contact.html">Contact Us</a></li>
+          <li><a href="/pages/branch-network.html">Branches</a></li>
+        </ul>
+      </div>
+      <div class="footer-col-1">
+        <h5>
+          Newsletter
+          <div class="underline-1"><span></span></div>
+        </h5>
+        <br />
+        <br />
+        <form class="footer-form">
+          <i class="fa-solid fa-envelope"></i>
+          <input type="email-1" placeholder="Enter your email" required />
+          <button type="submit">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="social-icons">
+          <h5>Connect with us</h5>
+          <a
+            href="https://instagram.com/supun.xiii?igshid=OGQ5ZDc2ODk2ZA=="
+            target="_blank"
+            class="tooltipped"
+            data-position="top"
+            data-tooltip="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://help.instagram.com/1747515265645443"
+            target="_blank"
+            class="tooltipped"
+            data-position="bottom"
+            data-tooltip="Threads"
+            ><i class="fa-brands fa-threads"></i
+          ></a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            class="tooltipped"
+            data-position="top"
+            data-tooltip="X"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/supunwijesooriya"
+            target="_blank"
+            class="tooltipped"
+            data-position="bottom"
+            data-tooltip="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://wa.me/94702898499?text=Hello%20Shield!%20I%20want%20to%20know%20{Your%20Message}"
+            target="_blank"
+            class="tooltipped"
+            data-position="top"
+            data-tooltip="WhatsApp"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="footer-copyright grey-darken-4">
+      <div class="container center-align">
+        Copyright &copy; 1776-2023, Supun Seth XIII and Shield Inc. All Rights
+        Reserved. <br />
+        <p>MDCCLXXVI</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top inverted" id="myBtn" onclick="topFunction()">
+    <span class="material-icons">keyboard_double_arrow_up</span>
+  </a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/959fd8dfca.js"></script>
+    <script src="/js/shield.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".tooltipped").tooltip({
+          enterDelay: 300,
+        });
+        $('.collapsible').collapsible();
+      });
+
+      document
+        .getElementById("theme-toggle")
+        .addEventListener("click", function () {
+          document.documentElement.classList.toggle("night-mode");
+
+          document.querySelectorAll(".inverted").forEach((result) => {
+            result.classList.toggle("invert");
+          });
+        });
+
+      document
+        .getElementById("mobile-theme-button")
+        .addEventListener("click", function () {
+          document.documentElement.classList.toggle("night-mode");
+
+          document.querySelectorAll(".inverted").forEach((result) => {
+            result.classList.toggle("invert");
+          });
+        });
+    </script>
+    <script>
+          let mybutton = document.getElementById("myBtn");
+          window.onscroll = function() {scrollFunction()};
+          function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+          }
+          function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="/images/icons/icon-72x72.png" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="/css/contact.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- ios support -->
+    <link rel="apple-touch-icon" href="/images/icons/icon-96x96.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#0d47a1" />
+    <meta name="theme-color" content="#0d47a1" />
+    <title>What can we help you with?</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-wrapper blue darken-4 inverted">
+        <div class="nav-wrapper">
+          <a href="/index.html" class="brand-logo" id="logo">THE SHIELD</a>
+          <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li id="nav-items">
+              <a
+                href="/pages/about-us.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Discover our story, values, and mission by exploring 'Who we are?'"
+                >Who we are?</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/products-services.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Find our products and services according to your protection and wealth management range needs"
+                >Products</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/contact.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Get in touch with our team and reach out for any inquiries or assistance through our 'Contact Us' page"
+                >Contact Us</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/branch-network.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Discover our global presence and locate our various branches worldwide"
+                >Branches</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/my-shield.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="We're all ears for your suggestions! That's how we improve"
+                >My Shield</a
+              >
+            </li>
+            <li id="nav-items">
+              <a
+                href="/pages/careers-shield.html"
+                class="tooltipped"
+                data-position="bottom"
+                data-tooltip="Explore exciting opportunities to join our team and grow your career with us"
+                >Careers</a
+              >
+            </li>
+            <li
+              id="theme-toggle"
+              class="tooltipped"
+              data-position="bottom"
+              data-tooltip="Change Theme"
+            >
+              <i onclick="themeChange(this)" class="fa-regular fa-sun"></i>
+            </li>
+          </nav>
+          </ul>
+          <ul id="mobile-menu" class="sidenav grey lighten-2 inverted">
+            <li id="nav-items"><a href="/index.html">Back to Home</a></li>
+            <li id="nav-items"><a href="/pages/about-us.html">Who we are?</a></li>
+            <li id="nav-items"><a href="/pages/products-services.html">Products</a></li>
+            <li id="nav-items"><a href="/pages/contact.html">Contact Us</a></li>
+            <li id="nav-items"><a href="/pages/branch-network.html">Branches</a></li>
+            <li id="nav-items"><a href="/pages/my-shield.html">My Shield</a></li>
+            <li id="nav-items"><a href="/pages/careers-shield.html">Careers</a></li>
+            <div class="row">
+              <div class="col s3">
+                <a
+                  class="waves-effect waves-light btn"
+                  id="mobile-theme-button"
+                >
+                  <i onclick="themeChange(this)" class="fa-regular fa-sun"></i
+                ></a>
+              </div>
+              <div class="col s3">
+                <p id="theme-text-mobile">DAY/NIGHT</p>
+              </div>
+            </div>
+          </ul>      
+    </header>
+    <br>
+    <section class="contact-us">
+      <div class="container-contact">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt inverted"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">616 Hauptstraße </div>
+              <div class="text-two">1776 Munich <br> Bavaria, Germany</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt inverted"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+94702898499</div>
+              <div class="text-two">+94716161399</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope inverted"></i>
+              <div class="topic">Email</div>
+              <div class="text-two">info.shield@gmail.com</div>
+              <div class="text-one">thesourcecode1776@gmail.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text inverted">Send us a message</div>
+            <p>
+              <span>
+                <i class="fa-solid fa-headset"></i>
+              </span>
+              &nbsp; We're here to help. Send us an email and we'll respond as
+              soon as we can.
+            </p>
+            <form action="https://formspree.io/f/xjvqrwnr" method="POST">
+              <div class="input-box">
+                <input type="text" placeholder="Enter your name" name="name" required/>
+              </div>
+              <div class="input-box">
+                <input type="email" placeholder="Enter your email" name="email" required/>
+              </div>
+              <div class="input-box">
+                <input type="tel" placeholder="Phone number" name="phone" required/>
+              </div>
+              <div class="input-box message-box">
+                <textarea placeholder="Enter your message" name="message" required></textarea>
+              </div>
+              <div class="button inverted">
+                <button type="submit">Send Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+
+    <footer class="inverted">
+      <div class="footer-row-1">
+        <div class="footer-col-1">
+          <img
+            src="/images/icons/icon-72x72.png"
+            alt="logo"
+            class="footer-logo"
+          />
+          <p>
+            Shield Inc.&reg; takes great pride in upholding a strong commitment to its ownership structure and the rights of its stakeholders. As a responsible and ethical insurance company, we prioritize transparency and accountability in everything we do.
+          </p>
+        </div>
+        <div class="footer-col-1">
+          <h5>
+            Office
+            <div class="underline-1"><span></span></div>
+          </h5>
+          <br />
+          <br />
+          <p>616 Hauptstraße</p>
+          <p>1776 Munich</p>
+          <p>Bavaria, Germany</p>
+          <p class="email-id">info.shield@gmail.com</p>
+          <h6>+94702898499</h6>
+        </div>
+        <div class="footer-col-1">
+          <h5>
+            Links
+            <div class="underline-1"><span></span></div>
+          </h5>
+          <br />
+          <br />
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/about-us.html">About Us</a></li>
+            <li><a href="/pages/products-services.html">Products</a></li>
+            <li><a href="/pages/contact.html">Contact Us</a></li>
+            <li><a href="/pages/branch-network.html">Branches</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-1">
+          <h5>
+            Newsletter
+            <div class="underline-1"><span></span></div>
+          </h5>
+          <br />
+          <br />
+          <form class="footer-form">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email-1" placeholder="Enter your email" required />
+            <button type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+          <div class="social-icons">
+            <h5>Connect with us</h5>
+            <a
+              href="https://instagram.com/supun.xiii?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://help.instagram.com/1747515265645443"
+              target="_blank"
+              class="tooltipped"
+              data-position="bottom"
+              data-tooltip="Threads"
+              ><i class="fa-brands fa-threads"></i
+            ></a>
+            <a
+              href="https://x.com"
+              target="_blank"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="X"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/supunwijesooriya"
+              target="_blank"
+              class="tooltipped"
+              data-position="bottom"
+              data-tooltip="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://wa.me/94702898499?text=Hello%20Shield!%20I%20want%20to%20know%20{Your%20Message}"
+              target="_blank"
+              class="tooltipped"
+              data-position="top"
+              data-tooltip="WhatsApp"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="footer-copyright grey-darken-4">
+        <div class="container center-align">
+          Copyright &copy; 1776-2023, Supun Seth XIII and Shield Inc. All Rights
+          Reserved. <br />
+          <p>MDCCLXXVI</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top inverted" id="myBtn" onclick="topFunction()">
+      <span class="material-icons">keyboard_double_arrow_up</span>
+    </a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/959fd8dfca.js"></script>
+    <script src="/js/shield.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+        $(".tooltipped").tooltip({
+          enterDelay: 300,
+        });
+        $('.collapsible').collapsible();
+      });
+
+      document
+        .getElementById("theme-toggle")
+        .addEventListener("click", function () {
+          document.documentElement.classList.toggle("night-mode");
+
+          document.querySelectorAll(".inverted").forEach((result) => {
+            result.classList.toggle("invert");
+          });
+        });
+
+      document
+        .getElementById("mobile-theme-button")
+        .addEventListener("click", function () {
+          document.documentElement.classList.toggle("night-mode");
+
+          document.querySelectorAll(".inverted").forEach((result) => {
+            result.classList.toggle("invert");
+          });
+        });
+    </script>
+    <script>
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+      }
+      function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>
