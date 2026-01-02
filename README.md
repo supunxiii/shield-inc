@@ -4,9 +4,9 @@
 
 Shield Inc is a mobile-responsive Progressive Web Application (PWA) developed for the COMP50011-K-II - Mobile Application Development II module. It presents a multi-page insurance platform with responsive layouts, accessible navigation, and offline support. The experience spans product highlights, company information, branch discovery, careers, and a 'My Shield' area that captures user input and syncs data via Firebase.
 
-![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-Behaviour-F7DF1E?style=flat-square&logo=javascript&logoColor=000000)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![Materialize 1.0.0](https://img.shields.io/badge/Materialize-1.0.0-EE6E73?style=flat-square&logo=materialdesign&logoColor=white)
 ![jQuery 3.7.0](https://img.shields.io/badge/jQuery-3.7.0-0769AD?style=flat-square&logo=jquery&logoColor=white)
 ![SwiperJS 10.3](https://img.shields.io/badge/SwiperJS-10.3-6332F6?style=flat-square&logo=swiper&logoColor=white)
@@ -14,6 +14,7 @@ Shield Inc is a mobile-responsive Progressive Web Application (PWA) developed fo
 ![NPM](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
 ![Firebase 10.3.1](https://img.shields.io/badge/Firebase-10.3.1-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Font%20Awesome 6](https://img.shields.io/badge/Font%20Awesome-6-528DD7?style=flat-square&logo=fontawesome&logoColor=white)
+![Progressive Web App](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
 
 ## Features
 
